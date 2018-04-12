@@ -81,5 +81,5 @@ app.get('/serie_a', async function (req, res) {
 });
 
 app.listen(port, function () {
-  console.log('Quick Corner Checker listening on port ' + port);
+  console.log('Quick Corner Check listening on port ' + port);
 });
