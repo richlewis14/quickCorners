@@ -80,6 +80,12 @@ app.get('/serie_a', async function (req, res) {
   res.render('serie_a', { teams: teams });
 });
 
+app.get('/serie_b', async function (req, res) {
+  await getTeamInfo('serie_b');
+  const teams = team_data;
+  res.render('serie_b', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
