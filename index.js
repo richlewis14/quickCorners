@@ -116,6 +116,12 @@ app.get('/ligue_1', async function (req, res) {
   res.render('ligue_1', { teams: teams });
 });
 
+app.get('/ligue_2', async function (req, res) {
+  await getTeamInfo('ligue_2');
+  const teams = team_data;
+  res.render('ligue_2', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
