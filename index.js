@@ -164,6 +164,12 @@ app.get('/primera_division', async function (req, res) {
   res.render('primera_division', { teams: teams });
 });
 
+app.get('/austria_bundesliga', async function (req, res) {
+  await getTeamInfo('austria_bundesliga');
+  const teams = team_data;
+  res.render('austria_bundesliga', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });

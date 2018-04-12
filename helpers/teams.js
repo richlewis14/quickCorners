@@ -384,5 +384,17 @@ primera_division: [
  { team_name: "Santos de Guapiles", league: "primera_division", friendly_name: "santos_de_guapiles", url: "https://corner-stats.com/santos-de-guapiles/costa-rica/team/2243" },
  { team_name: "Saprissa", league: "primera_division", friendly_name: "saprissa", url: "https://corner-stats.com/deportivo-saprissa/costa-rica/team/2245" },
  { team_name: "UCR", league: "primera_division", friendly_name: "ucr", url: "https://corner-stats.com/universidad-de-costa-rica/costa-rica/team/2238" }
+],
+austria_bundesliga: [
+ { team_name: "Admira Wacker Mödling", league: "austria_bundesliga", friendly_name: "admira_wacker_modling", url: "https://corner-stats.com/fc-trenkwalder-admira/austria/team/1893"},
+ { team_name: "Austria Wien", league: "austria_bundesliga", friendly_name: "austria_wien", url: "https://corner-stats.com/fk-austria-vienna/austria/team/1627"},
+ { team_name: "Rapid Wien", league: "austria_bundesliga", friendly_name: "rapid_wien", url: "https://corner-stats.com/rapid-vienna/austria/team/1573"},
+ { team_name: "Red Bull Salzburg", league: "austria_bundesliga", friendly_name: "red_bull_salzburg", url: "https://corner-stats.com/fc-salzburg/austria/team/1704" },
+ { team_name: "Rheindorf Altach", league: "austria_bundesliga", friendly_name: "rheindorf_altach", url: "https://corner-stats.com/scr-altach/austria/team/2387" },
+ { team_name: "SV Ried", league: "austria_bundesliga", friendly_name: "sv_ried", url: "https://corner-stats.com/sv-ried/austria/team/2389" },
+ { team_name: "St. Polten", league: "austria_bundesliga", friendly_name: "st_polten", url: "https://corner-stats.com/st-polten/austria/team/2400" },
+ { team_name: "Sturm Graz", league: "austria_bundesliga", friendly_name: "sturm_graz", url: "https://corner-stats.com/sk-sturm-graz/austria/team/2042" },
+ { team_name: "SV Mattersburg", league: "austria_bundesliga", friendly_name: "sv_mattersburg", url: "https://corner-stats.com/sv-mattersburg/austria/team/2401" },
+ { team_name: "Wolfsberger AC", league: "austria_bundesliga", friendly_name: "wolfsberger_ac", url: "https://corner-stats.com/wolfsberger-ac/austria/team/1890" }
 ]
 }
