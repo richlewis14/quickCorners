@@ -134,6 +134,12 @@ app.get('/k_league', async function (req, res) {
   res.render('k_league', { teams: teams });
 });
 
+app.get('/super_lig', async function (req, res) {
+  await getTeamInfo('super_lig');
+  const teams = team_data;
+  res.render('super_lig', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
