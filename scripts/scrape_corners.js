@@ -83,7 +83,7 @@ var year = dateObj.getUTCFullYear().toString();
 
   // Go To Team URL
   for (var i = 0; i < TEAM[args].length; i++) {
-    console.log("Starting data scrape processing for " + TEAM[args][i]['team_name'] + ' home matches');
+    console.log("Starting data scrape processing for " + TEAM[args][i]['team_name'] + ' matches');
     await page.goto(TEAM[args][i]['url']);
     await page.waitFor(2000);
 
