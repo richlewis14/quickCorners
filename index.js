@@ -140,6 +140,12 @@ app.get('/super_lig', async function (req, res) {
   res.render('super_lig', { teams: teams });
 });
 
+app.get('/swiss_super_lig', async function (req, res) {
+  await getTeamInfo('swiss_super_lig');
+  const teams = team_data;
+  res.render('swiss_super_lig', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });

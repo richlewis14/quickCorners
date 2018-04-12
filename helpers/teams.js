@@ -315,19 +315,19 @@ super_lig: [
  { team_name: "Konyaspor", league: "super_lig", friendly_name: "konyaspor", url: "https://corner-stats.com/konyaspor/turkey/team/2336" },
  { team_name: "Osmanlispor", league: "super_lig", friendly_name: "osmanlispor", url: "https://corner-stats.com/osmanlispor/turkey/team/4525" },
  { team_name: "Trabzonspor", league: "super_lig", friendly_name: "Trabzonspor", url: "https://corner-stats.com/trabzonspor/turkey/team/1631" }
+],
+swiss_super_lig: [
+ { team_name: "FC Basel", league: "swiss_super_lig", friendly_name: "fc_basel", url: "https://corner-stats.com/basel/switzerland/team/258"},
+ { team_name: "Grasshopper Club Zurich", league: "swiss_super_lig", friendly_name: "grasshopper", url: "https://corner-stats.com/grasshoppers/switzerland/team/1924"},
+ { team_name: "FC Lausanne-Sport", league: "swiss_super_lig", friendly_name: "lausanne_sport", url: "https://corner-stats.com/lausanne-sport/switzerland/team/722"},
+ { team_name: "FC Lugano", league: "swiss_super_lig", friendly_name: "lugano", url: "https://corner-stats.com/fc-lugano/switzerland/team/1767" },
+ { team_name: "FC Luzern", league: "swiss_super_lig", friendly_name: "luzern", url: "https://corner-stats.com/lucerne/switzerland/team/1728" },
+ { team_name: "FC Sion", league: "swiss_super_lig", friendly_name: "sion", url: "https://corner-stats.com/fc-sion/switzerland/team/1926" },
+ { team_name: "FC St Gallen", league: "swiss_super_lig", friendly_name: "gallen", url: "https://corner-stats.com/st-gallen/switzerland/team/1579" },
+ { team_name: "FC Thun", league: "swiss_super_lig", friendly_name: "thun", url: "https://corner-stats.com/fc-thun/switzerland/team/1647" },
+ { team_name: "BSC Young Boys", league: "swiss_super_lig", friendly_name: "young_boys", url: "https://corner-stats.com/young-boys/switzerland/team/1699" },
+ { team_name: "FC Zurich", league: "swiss_super_lig", friendly_name: "zurich", url: "https://corner-stats.com/fc-zurich/switzerland/team/1729" }
 ]
-// swiss_super_lig: [
-//  { team_name: "FC Basel", league: "swiss_super_lig", friendly_name: "fc_basel", url: "https://corner-stats.com/basel/switzerland/team/258"},
-//  { team_name: "Grasshopper Club Zurich", league: "swiss_super_lig", friendly_name: "grasshopper", url: "https://corner-stats.com/grasshoppers/switzerland/team/1924"},
-//  { team_name: "FC Lausanne-Sport", league: "swiss_super_lig", friendly_name: "lausanne_sport", url: "https://corner-stats.com/lausanne-sport/switzerland/team/722"},
-//  { team_name: "FC Lugano", league: "swiss_super_lig", friendly_name: "lugano", url: "https://corner-stats.com/fc-lugano/switzerland/team/1767" },
-//  { team_name: "FC Luzern", league: "swiss_super_lig", friendly_name: "luzern", url: "https://corner-stats.com/lucerne/switzerland/team/1728" },
-//  { team_name: "FC Sion", league: "swiss_super_lig", friendly_name: "sion", url: "https://corner-stats.com/fc-sion/switzerland/team/1926" },
-//  { team_name: "FC St Gallen", league: "swiss_super_lig", friendly_name: "gallen", url: "https://corner-stats.com/st-gallen/switzerland/team/1579" },
-//  { team_name: "FC Thun", league: "swiss_super_lig", friendly_name: "thun", url: "https://corner-stats.com/fc-thun/switzerland/team/1647" },
-//  { team_name: "BSC Young Boys", league: "swiss_super_lig", friendly_name: "young_boys", url: "https://corner-stats.com/young-boys/switzerland/team/1699" },
-//  { team_name: "FC Zurich", league: "swiss_super_lig", friendly_name: "zurich", url: "https://corner-stats.com/fc-zurich/switzerland/team/1729" }
-// ],
 // norway_eliteserien: [
 //  { team_name: "Bodo/Glimt", league: "norway_eliteserien", friendly_name: "fc_basel", url: "https://corner-stats.com/fk-bodo-glimt/norway/team/2802"},
 //  { team_name: "Brann", league: "norway_eliteserien", friendly_name: "brann", url: "https://corner-stats.com/sk-brann/norway/team/2801"},
