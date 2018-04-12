@@ -158,6 +158,12 @@ app.get('/mls_league', async function (req, res) {
   res.render('mls_league', { teams: teams });
 });
 
+app.get('/primera_division', async function (req, res) {
+  await getTeamInfo('primera_division');
+  const teams = team_data;
+  res.render('primera_division', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });

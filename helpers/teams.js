@@ -370,5 +370,19 @@ mls_league: [
  { team_name: "Sporting Kansas City", league: "mls_league", friendly_name: "sporting_kansas_city", url: "https://corner-stats.com/sporting-kansas-city/united-states/team/1935" },
  { team_name: "Toronto FC", league: "mls_league", friendly_name: "toronto_fc", url: "https://corner-stats.com/toronto-fc/canada/team/1961" },
  { team_name: "Vancouver Whitecaps FC", league: "mls_league", friendly_name: "vancouver_whitecaps", url: "https://corner-stats.com/vancouver-whitecaps/canada/team/2561" }
+],
+primera_division: [
+ { team_name: "Alajuelense", league: "primera_division", friendly_name: "alajuelense", url: "https://corner-stats.com/alajuelense/costa-rica/team/2244"},
+ { team_name: "Carmelita", league: "primera_division", friendly_name: "carmelita", url: "https://corner-stats.com/ad-carmelita/costa-rica/team/2239"},
+ { team_name: "Cartagines", league: "primera_division", friendly_name: "cartagines", url: "https://corner-stats.com/cartagines/costa-rica/team/2246"},
+ { team_name: "Grecia", league: "primera_division", friendly_name: "grecia", url: "https://corner-stats.com/grecia-fc/costa-rica/team/6261" },
+ { team_name: "Guadalupe", league: "primera_division", friendly_name: "guadalupe", url: "https://corner-stats.com/guadalupe/costa-rica/team/6260" },
+ { team_name: "Herediano", league: "primera_division", friendly_name: "herediano", url: "https://corner-stats.com/herediano/costa-rica/team/2355" },
+ { team_name: "Liberia", league: "primera_division", friendly_name: "liberia", url: "https://corner-stats.com/municipal-lib/costa-rica/team/4369" },
+ { team_name: "Limon", league: "primera_division", friendly_name: "limon", url: "https://corner-stats.com/limon-fc/costa-rica/team/2303" },
+ { team_name: "Perez Zeledon", league: "primera_division", friendly_name: "perez_zeledon", url: "https://corner-stats.com/municipal-perez-zeledon/costa-rica/team/2242" },
+ { team_name: "Santos de Guapiles", league: "primera_division", friendly_name: "santos_de_guapiles", url: "https://corner-stats.com/santos-de-guapiles/costa-rica/team/2243" },
+ { team_name: "Saprissa", league: "primera_division", friendly_name: "saprissa", url: "https://corner-stats.com/deportivo-saprissa/costa-rica/team/2245" },
+ { team_name: "UCR", league: "primera_division", friendly_name: "ucr", url: "https://corner-stats.com/universidad-de-costa-rica/costa-rica/team/2238" }
 ]
 }
