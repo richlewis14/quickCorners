@@ -6,7 +6,13 @@ const TEAM = require('../helpers/teams');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 var redis = require('redis');
-var r_client = redis.createClient();
+
+if(process.env.NODE_ENV == 'production') {
+  var client = redis.createClient(process.env.REDISCLOUD_URL);
+} else {
+  var client = redis.createClient();
+}
+
 
 // Write to redis
 function writeToRedis(data, team, key){
@@ -21,7 +27,7 @@ function writeToRedis(data, team, key){
       hash_set[key + i] = data[i];
     }
 
-    r_client.hmset(team['team_name'], hash_set, function (error, result) {
+    client.hmset(team['team_name'], hash_set, function (error, result) {
      if (error) {
        reject(error);
        return;
@@ -34,7 +40,7 @@ function writeToRedis(data, team, key){
 
 function readFromRedis(team){
   return new Promise((resolve, reject) => {
-    r_client.hgetall(team['team_name'], function (error, result) {
+    client.hgetall(team['team_name'], function (error, result) {
      if (error) {
        reject(error);
        return;
@@ -221,13 +227,13 @@ var year = dateObj.getUTCFullYear().toString();
     let divs = [...document.querySelectorAll('#table_corners td.team_1_corners_quantity.td_center > a > b')];
     return divs.map((div) => div.innerText);
   });
-  
+
   // Write to Redis
   writeToRedis(corners, TEAM[args][i], 'shcc_away');
 
 
   await page.waitFor(2000);
 } // end loop
-  r_client.quit();
+  client.quit();
   await browser.close();
 })();
