@@ -98,6 +98,12 @@ app.get('/bundesliga_2', async function (req, res) {
   res.render('bundesliga_2', { teams: teams });
 });
 
+app.get('/la_liga', async function (req, res) {
+  await getTeamInfo('la_liga');
+  const teams = team_data;
+  res.render('la_liga', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
