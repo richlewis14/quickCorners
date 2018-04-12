@@ -206,19 +206,19 @@ la_liga: [
  { team_name: "Sevilla", league: "la_liga", friendly_name: "sevilla", url: "https://corner-stats.com/sevilla/spain/team/65" },
  { team_name: "Valencia", league: "la_liga", friendly_name: "valencia", url: "https://corner-stats.com/valencia/spain/team/75" },
  { team_name: "Villarreal", league: "la_liga", friendly_name: "villarreal", url: "https://corner-stats.com/villarreal/spain/team/1550" }
+],
+a_league: [
+ { team_name: "Adelaide United", league: "a_league", friendly_name: "adelaide_united", url: "https://corner-stats.com/adelaide-united/australia/team/641"},
+ { team_name: "Brisbane Roar", league: "a_league", friendly_name: "brisbane_roar", url: "https://corner-stats.com/brisbane-roar/australia/team/2196"},
+ { team_name: "Central Coast Mariners", league: "a_league", friendly_name: "central_coast_mariners", url: "https://corner-stats.com/central-coast-mariners/australia/team/1481"},
+ { team_name: "Melbourne City", league: "a_league", friendly_name: "melbourne_city", url: "https://corner-stats.com/melbourne-heart/australia/team/702" },
+ { team_name: "Melbourne Victory", league: "a_league", friendly_name: "melbourne_victory", url: "https://corner-stats.com/melbourne-victory/australia/team/1806" },
+ { team_name: "Newcastle Jets", league: "a_league", friendly_name: "newcastle_jets", url: "https://corner-stats.com/newcastle-jets/australia/team/2394" },
+ { team_name: "Perth Glory", league: "a_league", friendly_name: "perth_glory", url: "https://corner-stats.com/perth-glory/australia/team/2012" },
+ { team_name: "Sydney FC", league: "a_league", friendly_name: "sydney_fc", url: "https://corner-stats.com/sydney-fc/australia/team/1937" },
+ { team_name: "Wellington Phoenix", league: "a_league", friendly_name: "wellington_phoenix", url: "https://corner-stats.com/wellington-phoenix/new-zealand/team/1936" },
+ { team_name: "Western Sydney Wanderers", league: "a_league", friendly_name: "western_city_wanderers", url: "https://corner-stats.com/western-sydney-wanderers/australia/team/1739" }
 ]
-// a_league: [
-//  { team_name: "Adelaide United", league: "a_league", friendly_name: "adelaide_united", url: "https://corner-stats.com/adelaide-united/australia/team/641"},
-//  { team_name: "Brisbane Roar", league: "a_league", friendly_name: "brisbane_roar", url: "https://corner-stats.com/brisbane-roar/australia/team/2196"},
-//  { team_name: "Central Coast Mariners", league: "a_league", friendly_name: "central_coast_mariners", url: "https://corner-stats.com/central-coast-mariners/australia/team/1481"},
-//  { team_name: "Melbourne City", league: "a_league", friendly_name: "melbourne_city", url: "https://corner-stats.com/melbourne-heart/australia/team/702" },
-//  { team_name: "Melbourne Victory", league: "a_league", friendly_name: "melbourne_victory", url: "https://corner-stats.com/melbourne-victory/australia/team/1806" },
-//  { team_name: "Newcastle Jets", league: "a_league", friendly_name: "newcastle_jets", url: "https://corner-stats.com/newcastle-jets/australia/team/2394" },
-//  { team_name: "Perth Glory", league: "a_league", friendly_name: "perth_glory", url: "https://corner-stats.com/perth-glory/australia/team/2012" },
-//  { team_name: "Sydney FC", league: "a_league", friendly_name: "sydney_fc", url: "https://corner-stats.com/sydney-fc/australia/team/1937" },
-//  { team_name: "Wellington Phoenix", league: "a_league", friendly_name: "wellington_phoenix", url: "https://corner-stats.com/wellington-phoenix/new-zealand/team/1936" },
-//  { team_name: "Western Sydney Wanderers", league: "a_league", friendly_name: "western_city_wanderers", url: "https://corner-stats.com/western-sydney-wanderers/australia/team/1739" }
-// ],
 // ligue_1: [
 //  { team_name: "Amiens", league: "ligue_1", friendly_name: "amiens", url: "https://corner-stats.com/amiens-sc/france/team/573"},
 //  { team_name: "Angers", league: "ligue_1", friendly_name: "angers", url: "https://corner-stats.com/angers/france/team/1568"},
