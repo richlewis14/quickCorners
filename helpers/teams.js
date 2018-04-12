@@ -327,25 +327,25 @@ swiss_super_lig: [
  { team_name: "FC Thun", league: "swiss_super_lig", friendly_name: "thun", url: "https://corner-stats.com/fc-thun/switzerland/team/1647" },
  { team_name: "BSC Young Boys", league: "swiss_super_lig", friendly_name: "young_boys", url: "https://corner-stats.com/young-boys/switzerland/team/1699" },
  { team_name: "FC Zurich", league: "swiss_super_lig", friendly_name: "zurich", url: "https://corner-stats.com/fc-zurich/switzerland/team/1729" }
+],
+norway_eliteserien: [
+ { team_name: "Bodo/Glimt", league: "norway_eliteserien", friendly_name: "fc_basel", url: "https://corner-stats.com/fk-bodo-glimt/norway/team/2802"},
+ { team_name: "Brann", league: "norway_eliteserien", friendly_name: "brann", url: "https://corner-stats.com/sk-brann/norway/team/2801"},
+ { team_name: "Haugesund", league: "norway_eliteserien", friendly_name: "haugesund", url: "https://corner-stats.com/fk-haugesund/norway/team/2800"},
+ { team_name: "Kristiansund", league: "norway_eliteserien", friendly_name: "kristiansund", url: "https://corner-stats.com/kristiansund-bk/norway/team/3024" },
+ { team_name: "Lillestrom", league: "norway_eliteserien", friendly_name: "lillestrom", url: "https://corner-stats.com/lillestrom-sk/norway/team/969" },
+ { team_name: "Molde", league: "norway_eliteserien", friendly_name: "molde", url: "https://corner-stats.com/molde-fk/norway/team/1801" },
+ { team_name: "Odd", league: "norway_eliteserien", friendly_name: "odd", url: "https://corner-stats.com/odd-grenland-bk/norway/team/965" },
+ { team_name: "Ranheim", league: "norway_eliteserien", friendly_name: "ranheim", url: "https://corner-stats.com/ranheim-fotball/norway/team/2980" },
+ { team_name: "Rosenborg", league: "norway_eliteserien", friendly_name: "rosenborg", url: "https://corner-stats.com/rosenborg/norway/team/303" },
+ { team_name: "Sandefjord", league: "norway_eliteserien", friendly_name: "sandefjord", url: "https://corner-stats.com/sandefjord/norway/team/2946" },
+ { team_name: "Sarpsborg 08", league: "norway_eliteserien", friendly_name: "sarpsborg_08", url: "https://corner-stats.com/sarpsborg-08-ff/norway/team/2806" },
+ { team_name: "Stabaek", league: "norway_eliteserien", friendly_name: "stabaek", url: "https://corner-stats.com/stabek-fotball/norway/team/2805" },
+ { team_name: "Start", league: "norway_eliteserien", friendly_name: "start", url: "https://corner-stats.com/young-boys/switzerland/team/1699" },
+ { team_name: "Stromsgodset", league: "norway_eliteserien", friendly_name: "stromsgodset", url: "https://corner-stats.com/stromsgodset-if/norway/team/1798" },
+ { team_name: "Tromso", league: "norway_eliteserien", friendly_name: "tromso", url: "https://corner-stats.com/tromso-il/norway/team/1497" },
+ { team_name: "Valerenga", league: "norway_eliteserien", friendly_name: "valerenga", url: "https://corner-stats.com/valerenga/norway/team/403" }
 ]
-// norway_eliteserien: [
-//  { team_name: "Bodo/Glimt", league: "norway_eliteserien", friendly_name: "fc_basel", url: "https://corner-stats.com/fk-bodo-glimt/norway/team/2802"},
-//  { team_name: "Brann", league: "norway_eliteserien", friendly_name: "brann", url: "https://corner-stats.com/sk-brann/norway/team/2801"},
-//  { team_name: "Haugesund", league: "norway_eliteserien", friendly_name: "haugesund", url: "https://corner-stats.com/fk-haugesund/norway/team/2800"},
-//  { team_name: "Kristiansund", league: "norway_eliteserien", friendly_name: "kristiansund", url: "https://corner-stats.com/kristiansund-bk/norway/team/3024" },
-//  { team_name: "Lillestrom", league: "norway_eliteserien", friendly_name: "lillestrom", url: "https://corner-stats.com/lillestrom-sk/norway/team/969" },
-//  { team_name: "Molde", league: "norway_eliteserien", friendly_name: "molde", url: "https://corner-stats.com/molde-fk/norway/team/1801" },
-//  { team_name: "Odd", league: "norway_eliteserien", friendly_name: "odd", url: "https://corner-stats.com/odd-grenland-bk/norway/team/965" },
-//  { team_name: "Ranheim", league: "norway_eliteserien", friendly_name: "ranheim", url: "https://corner-stats.com/ranheim-fotball/norway/team/2980" },
-//  { team_name: "Rosenborg", league: "norway_eliteserien", friendly_name: "rosenborg", url: "https://corner-stats.com/rosenborg/norway/team/303" },
-//  { team_name: "Sandefjord", league: "norway_eliteserien", friendly_name: "sandefjord", url: "https://corner-stats.com/sandefjord/norway/team/2946" },
-//  { team_name: "Sarpsborg 08", league: "norway_eliteserien", friendly_name: "sarpsborg_08", url: "https://corner-stats.com/sarpsborg-08-ff/norway/team/2806" },
-//  { team_name: "Stabaek", league: "norway_eliteserien", friendly_name: "stabaek", url: "https://corner-stats.com/stabek-fotball/norway/team/2805" },
-//  { team_name: "Start", league: "norway_eliteserien", friendly_name: "start", url: "https://corner-stats.com/young-boys/switzerland/team/1699" },
-//  { team_name: "Stromsgodset", league: "norway_eliteserien", friendly_name: "stromsgodset", url: "https://corner-stats.com/stromsgodset-if/norway/team/1798" },
-//  { team_name: "Tromso", league: "norway_eliteserien", friendly_name: "tromso", url: "https://corner-stats.com/tromso-il/norway/team/1497" },
-//  { team_name: "Valerenga", league: "norway_eliteserien", friendly_name: "valerenga", url: "https://corner-stats.com/valerenga/norway/team/403" }
-// ],
 // mls_league: [
 //  { team_name: "Atlanta United", league: "mls_league", friendly_name: "atlanta_united", url: "https://corner-stats.com/atlanta-united/united-states/team/5833"},
 //  { team_name: "Chicago Fire", league: "mls_league", friendly_name: "chicago_fire", url: "https://corner-stats.com/chicago-fire/united-states/team/1962"},

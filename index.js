@@ -146,6 +146,12 @@ app.get('/swiss_super_lig', async function (req, res) {
   res.render('swiss_super_lig', { teams: teams });
 });
 
+app.get('/norway_eliteserien', async function (req, res) {
+  await getTeamInfo('norway_eliteserien');
+  const teams = team_data;
+  res.render('norway_eliteserien', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
