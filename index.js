@@ -152,6 +152,12 @@ app.get('/norway_eliteserien', async function (req, res) {
   res.render('norway_eliteserien', { teams: teams });
 });
 
+app.get('/mls_league', async function (req, res) {
+  await getTeamInfo('mls_league');
+  const teams = team_data;
+  res.render('mls_league', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
