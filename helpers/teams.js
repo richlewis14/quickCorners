@@ -408,5 +408,23 @@ austria_liga: [
  { team_name: "Wiener Neustadt", league: "austria_liga", friendly_name: "wiener_neustadt", url: "https://corner-stats.com/wiener-neustadt/austria/team/2388" },
  { team_name: "TSV Hartberg", league: "austria_liga", friendly_name: "tsv_hartberg", url: "https://corner-stats.com/hartberg/austria/team/1970" },
  { team_name: "WSG Swarovski Wattens", league: "austria_liga", friendly_name: "wsg_swarovski_wattens", url: "https://corner-stats.com/swarovski-watt/austria/team/3870" }
+],
+china_super_league: [
+ { team_name: "Beijing Guoan", league: "china_super_league", friendly_name: "beijing_guoan", url: "https://corner-stats.com/beijing-guoan/china-pr/team/1479"},
+ { team_name: "Beijin Renhe", league: "china_super_league", friendly_name: "beijing_renhe", url: "https://corner-stats.com/guizhou-renhe/china-pr/team/1477" },
+ { team_name: "Chongqing Lifan", league: "china_super_league", friendly_name: "chongqing_lifan", url: "https://corner-stats.com/chongqing-lifan/china-pr/team/2498" },
+ { team_name: "Changchun Yatai", league: "china_super_league", friendly_name: "changchun_yatai", url: "https://corner-stats.com/changchun-yatai/china-pr/team/1850" },
+ { team_name: "Dalian Yifang", league: "china_super_league", friendly_name: "dalian_yifang", url: "https://corner-stats.com/dalian-aerbin/china-pr/team/2808" },
+ { team_name: "Guangzhou Evergrande", league: "china_super_league", friendly_name: "guangzhou_evergrande", url: "https://corner-stats.com/guangzhou-evergrande/china-pr/team/1476" },
+ { team_name: "Guangzhou R & F", league: "china_super_league", friendly_name: "guangzhou_r_and_f", url: "https://corner-stats.com/guangzhou-rf/china-pr/team/1862" },
+ { team_name: "Guizhou Zhicheng", league: "china_super_league", friendly_name: "guizhou_zhicheng", url: "https://corner-stats.com/guizhou-zhichen/china-pr/team/3989" },
+ { team_name: "Hebei CFFC", league: "china_super_league", friendly_name: "hebei_cffc", url: "https://corner-stats.com/hebei-china-f/china-pr/team/4219" },
+ { team_name: "Henan Jianye", league: "china_super_league", friendly_name: "henan_jianye", url: "https://corner-stats.com/henan-jianye/china-pr/team/2499" },
+ { team_name: "Jiangsu Suning", league: "china_super_league", friendly_name: "jiangsu_suning", url: "https://corner-stats.com/jiangsu-sainty-fc/china-pr/team/1478" },
+ { team_name: "Shanghai SIPG", league: "china_super_league", friendly_name: "shanghai_sipg", url: "https://corner-stats.com/shanghai-east-asia/china-pr/team/1750"},
+ { team_name: "Shanghai Shenua", league: "china_super_league", friendly_name: "shanghai_shenua", url: "https://corner-stats.com/shanghai-shenhua/china-pr/team/1744"},
+ { team_name: "Shandong Luneng", league: "china_super_league", friendly_name: "shandong_luneng", url: "https://corner-stats.com/shandong-luneng/china-pr/team/1740" },
+ { team_name: "Tianjin Quanjian", league: "china_super_league", friendly_name: "tianjin_quanjian", url: "https://corner-stats.com/tianjin-song/china-pr/team/3971" },
+ { team_name: "Tianjin Teda", league: "china_super_league", friendly_name: "tianjin_teda", url: "https://corner-stats.com/tianjin-teda/china-pr/team/1851" }
 ]
 }

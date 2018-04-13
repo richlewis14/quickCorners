@@ -176,6 +176,12 @@ app.get('/austria_liga', async function (req, res) {
   res.render('austria_liga', { teams: teams });
 });
 
+app.get('/china_super_league', async function (req, res) {
+  await getTeamInfo('china_super_league');
+  const teams = team_data;
+  res.render('china_super_league', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
