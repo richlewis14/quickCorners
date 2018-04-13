@@ -170,6 +170,12 @@ app.get('/austria_bundesliga', async function (req, res) {
   res.render('austria_bundesliga', { teams: teams });
 });
 
+app.get('/austria_liga', async function (req, res) {
+  await getTeamInfo('austria_liga');
+  const teams = team_data;
+  res.render('austria_liga', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });

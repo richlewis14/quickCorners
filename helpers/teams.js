@@ -389,12 +389,24 @@ austria_bundesliga: [
  { team_name: "Admira Wacker Mödling", league: "austria_bundesliga", friendly_name: "admira_wacker_modling", url: "https://corner-stats.com/fc-trenkwalder-admira/austria/team/1893"},
  { team_name: "Austria Wien", league: "austria_bundesliga", friendly_name: "austria_wien", url: "https://corner-stats.com/fk-austria-vienna/austria/team/1627"},
  { team_name: "Rapid Wien", league: "austria_bundesliga", friendly_name: "rapid_wien", url: "https://corner-stats.com/rapid-vienna/austria/team/1573"},
+ { team_name: "LASK Linz", league: "austria_bundesliga", friendly_name: "lask_linz", url: "https://corner-stats.com/lask-linz/austria/team/2193" },
  { team_name: "Red Bull Salzburg", league: "austria_bundesliga", friendly_name: "red_bull_salzburg", url: "https://corner-stats.com/fc-salzburg/austria/team/1704" },
  { team_name: "Rheindorf Altach", league: "austria_bundesliga", friendly_name: "rheindorf_altach", url: "https://corner-stats.com/scr-altach/austria/team/2387" },
- { team_name: "SV Ried", league: "austria_bundesliga", friendly_name: "sv_ried", url: "https://corner-stats.com/sv-ried/austria/team/2389" },
  { team_name: "St. Polten", league: "austria_bundesliga", friendly_name: "st_polten", url: "https://corner-stats.com/st-polten/austria/team/2400" },
  { team_name: "Sturm Graz", league: "austria_bundesliga", friendly_name: "sturm_graz", url: "https://corner-stats.com/sk-sturm-graz/austria/team/2042" },
  { team_name: "SV Mattersburg", league: "austria_bundesliga", friendly_name: "sv_mattersburg", url: "https://corner-stats.com/sv-mattersburg/austria/team/2401" },
  { team_name: "Wolfsberger AC", league: "austria_bundesliga", friendly_name: "wolfsberger_ac", url: "https://corner-stats.com/wolfsberger-ac/austria/team/1890" }
+],
+austria_liga: [
+ { team_name: "FAC Team fur Wien", league: "austria_liga", friendly_name: "fac_team_fur_wien", url: "https://corner-stats.com/fac-team-fur-wien/austria/team/2397"},
+ { team_name: "SV Ried", league: "austria_liga", friendly_name: "sv_ried", url: "https://corner-stats.com/sv-ried/austria/team/2389" },
+ { team_name: "FC Blau-Weiß Linz", league: "austria_liga", friendly_name: "fc_blau_weiß_linz", url: "https://corner-stats.com/blau-weis-linz/austria/team/451"},
+ { team_name: "FC Liefering", league: "austria_liga", friendly_name: "fc_liefering", url: "https://corner-stats.com/fc-liefering/austria/team/2395"},
+ { team_name: "FC Wacker Innsbruck", league: "austria_liga", friendly_name: "fc_wacker_innsbruck", url: "https://corner-stats.com/fc-wacker-innsbruck/austria/team/1963" },
+ { team_name: "SV Kapfenberg", league: "austria_liga", friendly_name: "sv_kapfenberg", url: "https://corner-stats.com/sv-kapfenberg/austria/team/2396" },
+ { team_name: "Austria Lustenau", league: "austria_liga", friendly_name: "austria_lustenau", url: "https://corner-stats.com/austria-lustenau/austria/team/2399" },
+ { team_name: "Wiener Neustadt", league: "austria_liga", friendly_name: "wiener_neustadt", url: "https://corner-stats.com/wiener-neustadt/austria/team/2388" },
+ { team_name: "TSV Hartberg", league: "austria_liga", friendly_name: "tsv_hartberg", url: "https://corner-stats.com/hartberg/austria/team/1970" },
+ { team_name: "WSG Swarovski Wattens", league: "austria_liga", friendly_name: "wsg_swarovski_wattens", url: "https://corner-stats.com/swarovski-watt/austria/team/3870" }
 ]
 }
