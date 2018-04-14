@@ -47,3 +47,19 @@ desc('Data Scraping for french Leagues');
 
   });
 });
+
+// Runs 2:00am every night - takes 10 mins
+desc('Data Scraping for italian Leagues');
+  task('scrape-data-italy', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js serie_a',
+    'node ./scripts/scrape_corners.js serie_b'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for italian leagues complete');
+    complete();
+
+  });
+});
