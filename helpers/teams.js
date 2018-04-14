@@ -346,6 +346,24 @@ norway_eliteserien: [
  { team_name: "Tromso", league: "norway_eliteserien", friendly_name: "tromso", url: "https://corner-stats.com/tromso-il/norway/team/1497" },
  { team_name: "Valerenga", league: "norway_eliteserien", friendly_name: "valerenga", url: "https://corner-stats.com/valerenga/norway/team/403" }
 ],
+sweden_allsvenskan: [
+ { team_name: "AIK", league: "sweden_allsvenskan", friendly_name: "aik", url: "https://corner-stats.com/aik/sweden/team/170" },
+ { team_name: "Brommapojkarna", league: "sweden_allsvenskan", friendly_name: "brommapojkarna", url: "https://corner-stats.com/brommapojkarna/sweden/team/2035" },
+ { team_name: "Dalkurd", league: "sweden_allsvenskan", friendly_name: "dalkurd", url: "https://corner-stats.com/dalkurd-ff/sweden/team/3008" },
+ { team_name: "Djurgarden", league: "sweden_allsvenskan", friendly_name: "djurgarden", url: "https://corner-stats.com/djurgardens-if/sweden/team/1795" },
+ { team_name: "Elfsborg", league: "sweden_allsvenskan", friendly_name: "elfsborg", url: "https://corner-stats.com/elfsborg/sweden/team/1771" },
+ { team_name: "GIF Sundsvall", league: "sweden_allsvenskan", friendly_name: "gif_sundsvall", url: "https://corner-stats.com/gif-sundsvall/sweden/team/1773" },
+ { team_name: "Hacken", league: "sweden_allsvenskan", friendly_name: "hacken", url: "https://corner-stats.com/bk-hacken/sweden/team/2814" },
+ { team_name: "Hammarby", league: "sweden_allsvenskan", friendly_name: "hammarby", url: "https://corner-stats.com/hammarby-if/sweden/team/836"},
+ { team_name: "IFK Goteborg", league: "sweden_allsvenskan", friendly_name: "ifk_goteborg", url: "https://corner-stats.com/ifk-goteborg/sweden/team/2178" },
+ { team_name: "Kalmar", league: "sweden_allsvenskan", friendly_name: "kalmar", url: "https://corner-stats.com/kalmar-ff/sweden/team/2810" },
+ { team_name: "Malmo FF", league: "sweden_allsvenskan", friendly_name: "malmo_ff", url: "https://corner-stats.com/malmo-ff/sweden/team/2109"},
+ { team_name: "Norrkoping", league: "sweden_allsvenskan", friendly_name: "norrkoping", url: "https://corner-stats.com/ifk-norrkoping/sweden/team/282" },
+ { team_name: "Orebro", league: "sweden_allsvenskan", friendly_name: "orebro", url: "https://corner-stats.com/orebro-sk/sweden/team/2190"},
+ { team_name: "Ostersunds FK", league: "sweden_allsvenskan", friendly_name: "osterunds_fk", url: "https://corner-stats.com/ostersunds-fk/sweden/team/688" },
+ { team_name: "Sirius", league: "sweden_allsvenskan", friendly_name: "sirius", url: "https://corner-stats.com/ik-sirius/sweden/team/3021" },
+ { team_name: "Trelleborg", league: "sweden_allsvenskan", friendly_name: "trelleborg", url: "https://corner-stats.com/trelleborgs-ff/sweden/team/4664" }
+],
 mls_league: [
  { team_name: "Atlanta United", league: "mls_league", friendly_name: "atlanta_united", url: "https://corner-stats.com/atlanta-united/united-states/team/5833"},
  { team_name: "Chicago Fire", league: "mls_league", friendly_name: "chicago_fire", url: "https://corner-stats.com/chicago-fire/united-states/team/1962"},
