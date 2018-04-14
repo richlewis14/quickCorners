@@ -93,3 +93,20 @@ desc('Data Scraping for america Leagues');
 
   });
 });
+
+// Runs 3:30am every night - takes 20 mins
+desc('Data Scraping for asian Leagues');
+  task('scrape-data-asia', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js j_league',
+    'node ./scripts/scrape_corners.js k_league',
+    'node ./scripts/scrape_corners.js china_super_league'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for asian leagues complete');
+    complete();
+
+  });
+});
