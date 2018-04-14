@@ -63,3 +63,33 @@ desc('Data Scraping for italian Leagues');
 
   });
 });
+
+// Runs 2:30am every night - takes 5 mins
+desc('Data Scraping for spanish Leagues');
+  task('scrape-data-spain', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js la_liga'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for spanish leagues complete');
+    complete();
+
+  });
+});
+
+// Runs 3:00am every night - takes 5 mins
+desc('Data Scraping for america Leagues');
+  task('scrape-data-america', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js mls_league'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for america leagues complete');
+    complete();
+
+  });
+});
