@@ -110,3 +110,19 @@ desc('Data Scraping for asian Leagues');
 
   });
 });
+
+// Runs 4:30am every night - takes 10 mins
+desc('Data Scraping for nordic Leagues');
+  task('scrape-data-nordic', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js sweden_allsvenskan',
+    'node ./scripts/scrape_corners.js norway_eliteserien'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for nordic leagues complete');
+    complete();
+
+  });
+});
