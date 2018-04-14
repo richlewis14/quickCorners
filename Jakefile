@@ -126,3 +126,18 @@ desc('Data Scraping for nordic Leagues');
 
   });
 });
+
+// Runs 5:00am every night - takes 5 mins
+desc('Data Scraping for turkish Leagues');
+  task('scrape-data-turkey', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js super_lig'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for turkish leagues complete');
+    complete();
+
+  });
+});
