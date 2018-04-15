@@ -141,3 +141,49 @@ desc('Data Scraping for turkish Leagues');
 
   });
 });
+
+// Runs 5:30am every night - takes 5 mins
+desc('Data Scraping for swiss Leagues');
+  task('scrape-data-swiss', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js swiss_super_lig'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for swiss leagues complete');
+    complete();
+
+  });
+});
+
+// Runs 5:45am every night - takes 5 mins
+desc('Data Scraping for central america Leagues');
+  task('scrape-data-central-america', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js primera_division'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for central america leagues complete');
+    complete();
+
+  });
+});
+
+// Runs 6:00am every night - takes 10 mins
+desc('Data Scraping for austrian Leagues');
+  task('scrape-data-austria', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js austria_bundesliga',
+    'node ./scripts/scrape_corners.js austria_liga'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for austria leagues complete');
+    complete();
+
+  });
+});
