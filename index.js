@@ -188,6 +188,12 @@ app.get('/poland_ekstraklasa', async function (req, res) {
   res.render('poland_ekstraklasa', { teams: teams });
 });
 
+app.get('/portugal_premier_league', async function (req, res) {
+  await getTeamInfo('portugal_premier_league');
+  const teams = team_data;
+  res.render('portugal_premier_league', { teams: teams });
+});
+
 app.get('/china_super_league', async function (req, res) {
   await getTeamInfo('china_super_league');
   const teams = team_data;

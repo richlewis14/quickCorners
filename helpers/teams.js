@@ -207,6 +207,25 @@ la_liga: [
  { team_name: "Valencia", league: "la_liga", friendly_name: "valencia", url: "https://corner-stats.com/valencia/spain/team/75" },
  { team_name: "Villarreal", league: "la_liga", friendly_name: "villarreal", url: "https://corner-stats.com/villarreal/spain/team/1550" }
 ],
+portugal_premier_league: [
+ { team_name: "Aves", league: "portugal_premier_league", friendly_name: "aves", url: "https://corner-stats.com/leganes/spain/team/2028" },
+ { team_name: "Belenenses", league: "portugal_premier_league", friendly_name: "belenenses", url: "https://corner-stats.com/girona/spain/team/1676" },
+ { team_name: "Benfica", league: "portugal_premier_league", friendly_name: "benfica", url: "https://corner-stats.com/cd-alaves/spain/team/1618"},
+ { team_name: "Boavista", league: "portugal_premier_league", friendly_name: "boavista", url: "https://corner-stats.com/celta-vigo/spain/team/73" },
+ { team_name: "Chaves", league: "portugal_premier_league", friendly_name: "chaves", url: "https://corner-stats.com/eibar/spain/team/1658" },
+ { team_name: "Estoril", league: "portugal_premier_league", friendly_name: "estoril", url: "https://corner-stats.com/real-madrid/spain/team/69" },
+ { team_name: "Feirense", league: "portugal_premier_league", friendly_name: "feirense", url: "https://corner-stats.com/real-sociedad/spain/team/71" },
+ { team_name: "Porto", league: "portugal_premier_league", friendly_name: "porto", url: "https://corner-stats.com/athletic-bilbao/spain/team/74"},
+ { team_name: "Guimaraes", league: "portugal_premier_league", friendly_name: "guimaraes", url: "https://corner-stats.com/espanyol/spain/team/77" },
+ { team_name: "Maritimo", league: "portugal_premier_league", friendly_name: "maritimo", url: "https://corner-stats.com/real-betis/spain/team/70" },
+ { team_name: "Moreirense", league: "portugal_premier_league", friendly_name: "moreirense", url: "https://corner-stats.com/levante/spain/team/68" },
+ { team_name: "Pacos Ferreira	", league: "portugal_premier_league", friendly_name: "pacos_ferreira	", url: "https://corner-stats.com/malaga/spain/team/61" },
+ { team_name: "Portimonense", league: "portugal_premier_league", friendly_name: "portimonense", url: "https://corner-stats.com/getafe/spain/team/66" },
+ { team_name: "Sporting Braga", league: "portugal_premier_league", friendly_name: "sporting_braga", url: "https://corner-stats.com/atletico-madrid/spain/team/67"},
+ { team_name: "Sporting CP", league: "portugal_premier_league", friendly_name: "sporting_cp", url: "https://corner-stats.com/barcelona/spain/team/59" },
+ { team_name: "Tondela", league: "portugal_premier_league", friendly_name: "tondela", url: "https://corner-stats.com/d-coruna/spain/team/64" },
+ { team_name: "Vitoria Setubal", league: "portugal_premier_league", friendly_name: "vitoria_setubal", url: "https://corner-stats.com/las-palmas/spain/team/1680" }
+],
 poland_ekstraklasa: [
  { team_name: "Arka Gdynia", league: "poland_ekstraklasa", friendly_name: "arka_gdynia", url: "https://corner-stats.com/arka-gdynia/poland/team/3950" },
  { team_name: "Cracovia Krakow", league: "poland_ekstraklasa", friendly_name: "cracovia_krakow", url: "https://corner-stats.com/cracovia-krakow/poland/team/2585" },
