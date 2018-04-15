@@ -157,7 +157,7 @@ desc('Data Scraping for swiss Leagues');
   });
 });
 
-// Runs 5:45am every night - takes 5 mins
+// Runs 6:00am every night - takes 5 mins
 desc('Data Scraping for central america Leagues');
   task('scrape-data-central-america', {async: true}, function () {
 
@@ -172,7 +172,7 @@ desc('Data Scraping for central america Leagues');
   });
 });
 
-// Runs 6:00am every night - takes 10 mins
+// Runs 6:30am every night - takes 10 mins
 desc('Data Scraping for austrian Leagues');
   task('scrape-data-austria', {async: true}, function () {
 
@@ -183,6 +183,21 @@ desc('Data Scraping for austrian Leagues');
 
   jake.exec(cmds, {printStdout: true}, function () {
     console.log('Data scrape for austria leagues complete');
+    complete();
+
+  });
+});
+
+// Runs 7:00am every morning - takes 10 mins
+desc('Data Scraping for polish Leagues');
+  task('scrape-data-poland', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js poland_ekstraklasa'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for polish leagues complete');
     complete();
 
   });

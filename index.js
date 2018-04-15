@@ -182,6 +182,12 @@ app.get('/austria_liga', async function (req, res) {
   res.render('austria_liga', { teams: teams });
 });
 
+app.get('/poland_ekstraklasa', async function (req, res) {
+  await getTeamInfo('poland_ekstraklasa');
+  const teams = team_data;
+  res.render('poland_ekstraklasa', { teams: teams });
+});
+
 app.get('/china_super_league', async function (req, res) {
   await getTeamInfo('china_super_league');
   const teams = team_data;

@@ -207,6 +207,24 @@ la_liga: [
  { team_name: "Valencia", league: "la_liga", friendly_name: "valencia", url: "https://corner-stats.com/valencia/spain/team/75" },
  { team_name: "Villarreal", league: "la_liga", friendly_name: "villarreal", url: "https://corner-stats.com/villarreal/spain/team/1550" }
 ],
+poland_ekstraklasa: [
+ { team_name: "Arka Gdynia", league: "poland_ekstraklasa", friendly_name: "arka_gdynia", url: "https://corner-stats.com/arka-gdynia/poland/team/3950" },
+ { team_name: "Cracovia Krakow", league: "poland_ekstraklasa", friendly_name: "cracovia_krakow", url: "https://corner-stats.com/cracovia-krakow/poland/team/2585" },
+ { team_name: "Gornik Zabrze", league: "poland_ekstraklasa", friendly_name: "gornik_zabrze", url: "https://corner-stats.com/gornik-zabrze/poland/team/2459" },
+ { team_name: "Jagiellonia Bialystok", league: "poland_ekstraklasa", friendly_name: "jagiellonia_bialystok", url: "https://corner-stats.com/jagiellonia-bialystok/poland/team/2410"},
+ { team_name: "Korona Kielce", league: "poland_ekstraklasa", friendly_name: "korona_kielce", url: "https://corner-stats.com/korona-kielce/poland/team/2550" },
+ { team_name: "Lech Poznan", league: "poland_ekstraklasa", friendly_name: "lech_poznan", url: "https://corner-stats.com/lech-poznan/poland/team/1778"},
+ { team_name: "Lechia Gdansk", league: "poland_ekstraklasa", friendly_name: "lechia_gdansk", url: "https://corner-stats.com/lechia-gdansk/poland/team/2116" },
+ { team_name: "Legia Warszawa", league: "poland_ekstraklasa", friendly_name: "legia_warszawa", url: "https://corner-stats.com/legia-warsaw/poland/team/1525"},
+ { team_name: "Nieciecza", league: "poland_ekstraklasa", friendly_name: "nieciecza", url: "https://corner-stats.com/termalica-niec/poland/team/3110" },
+ { team_name: "Pogon Szczecin", league: "poland_ekstraklasa", friendly_name: "pogon_szczecin", url: "https://corner-stats.com/pogon-szczecin/poland/team/1834" },
+ { team_name: "Piast Gliwice", league: "poland_ekstraklasa", friendly_name: "piast_gilwice", url: "https://corner-stats.com/piast-gliwice/poland/team/2458" },
+ { team_name: "Slask Wroclaw", league: "poland_ekstraklasa", friendly_name: "slask_wroclaw", url: "https://corner-stats.com/slask-wroclaw/poland/team/2049" },
+ { team_name: "Sandecja Nowy Saqz", league: "poland_ekstraklasa", friendly_name: "sandecja_nowy_saqz", url: "https://corner-stats.com/sandecja-ns/poland/team/3766" },
+ { team_name: "Wisla Plock", league: "poland_ekstraklasa", friendly_name: "wisla_plock", url: "https://corner-stats.com/wisla-plock-sa/poland/team/3129" },
+ { team_name: "Wisla Krakow", league: "poland_ekstraklasa", friendly_name: "wisla_krakow", url: "https://corner-stats.com/wisla-krakow/poland/team/2189" },
+ { team_name: "Zaglebie Lubin", league: "poland_ekstraklasa", friendly_name: "Zaglebie Lubin", url: "https://corner-stats.com/zaglebie-lubin/poland/team/332" }
+],
 a_league: [
  { team_name: "Adelaide United", league: "a_league", friendly_name: "adelaide_united", url: "https://corner-stats.com/adelaide-united/australia/team/641"},
  { team_name: "Brisbane Roar", league: "a_league", friendly_name: "brisbane_roar", url: "https://corner-stats.com/brisbane-roar/australia/team/2196"},
