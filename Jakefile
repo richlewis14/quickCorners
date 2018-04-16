@@ -1,3 +1,18 @@
+// Runs 11pm every night - takes 10 mins
+desc('Data Scraping for South America Leagues');
+  task('scrape-data-south-america', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js argentina_superliga'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for south america leagues complete');
+    complete();
+
+  });
+});
+
 // Runs midnight every night - takes 35 mins
 desc('Data Scraping for England Leagues');
   task('scrape-data-england', {async: true}, function () {

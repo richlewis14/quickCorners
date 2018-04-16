@@ -200,6 +200,12 @@ app.get('/china_super_league', async function (req, res) {
   res.render('china_super_league', { teams: teams });
 });
 
+app.get('/argentina_superliga', async function (req, res) {
+  await getTeamInfo('argentina_superliga');
+  const teams = team_data;
+  res.render('argentina_superliga', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });
