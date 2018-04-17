@@ -206,6 +206,12 @@ app.get('/argentina_superliga', async function (req, res) {
   res.render('argentina_superliga', { teams: teams });
 });
 
+app.get('/roi_premier', async function (req, res) {
+  await getTeamInfo('roi_premier');
+  const teams = team_data;
+  res.render('roi_premier', { teams: teams });
+});
+
 app.listen(port, function () {
   console.log('Quick Corner Check listening on port ' + port);
 });

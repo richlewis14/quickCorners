@@ -511,5 +511,17 @@ argentina_superliga: [
  { team_name: "Tigre", league: "argentina_superliga", friendly_name: "tigre", url: "https://corner-stats.com/ca-tigre/argentina/team/2340" },
  { team_name: "Union Santa Fe", league: "argentina_superliga", friendly_name: "union_santa_fe", url: "https://corner-stats.com/union-santa-fe/argentina/team/2207" },
  { team_name: "Velez Sarsfield", league: "argentina_superliga", friendly_name: "velez_sarsfield", url: "https://corner-stats.com/velez-sarsfield/argentina/team/2348"}
+],
+roi_premier: [
+ { team_name: "Bohemians", league: "roi_premier", friendly_name: "bohemians", url: "https://corner-stats.com/bohemians-dublin/ireland-republic/team/699"},
+ { team_name: "Bray", league: "roi_premier", friendly_name: "bray", url: "https://corner-stats.com/bray-wanderers/ireland-republic/team/2689"},
+ { team_name: "Cork City", league: "roi_premier", friendly_name: "cork_city", url: "https://corner-stats.com/cork-city/ireland-republic/team/2691" },
+ { team_name: "Derry City", league: "roi_premier", friendly_name: "derry_city", url: "https://corner-stats.com/derry-city/northern-ireland/team/2698" },
+ { team_name: "Dundalk", league: "roi_premier", friendly_name: "dundalk", url: "https://corner-stats.com/dundalk/ireland-republic/team/2695" },
+ { team_name: "Limerick", league: "roi_premier", friendly_name: "limerick", url: "https://corner-stats.com/limerick/ireland-republic/team/291" },
+ { team_name: "Shamrock", league: "roi_premier", friendly_name: "shamrock", url: "https://corner-stats.com/shamrock-rovers/ireland-republic/team/1821"},
+ { team_name: "Sligo Rovers", league: "roi_premier", friendly_name: "sligo_rovers", url: "https://corner-stats.com/sligo-rovers/ireland-republic/team/987" },
+ { team_name: "St Patricks", league: "roi_premier", friendly_name: "st_patricks", url: "https://corner-stats.com/st-patricks/ireland-republic/team/459" },
+ { team_name: "Waterford", league: "roi_premier", friendly_name: "waterford", url: "https://corner-stats.com/waterford-utd/ireland-republic/team/3029" }
 ]
 }

@@ -1,3 +1,18 @@
+// Runs 10:30pm every night - takes 5 mins
+desc('Data Scraping for Irish Leagues');
+  task('scrape-data-ireland', {async: true}, function () {
+
+  var cmds = [
+    'node ./scripts/scrape_corners.js roi_premier'
+  ];
+
+  jake.exec(cmds, {printStdout: true}, function () {
+    console.log('Data scrape for Irish leagues complete');
+    complete();
+
+  });
+});
+
 // Runs 11pm every night - takes 10 mins
 desc('Data Scraping for South America Leagues');
   task('scrape-data-south-america', {async: true}, function () {
