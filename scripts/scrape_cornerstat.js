@@ -152,6 +152,64 @@ var corners;
   // Write to Redis
   writeToRedis(corners, TEAM[args][i], 'thirty_seven_to_htc_home');
 
+  /////////
+  // 80FTCW
+  ////////
+  // Extract First Half Corners Won Between 80-FT (eighty_to_ftw_home) for Home Matches
+
+  corners = await page.evaluate((league) => {
+  let array = [];
+  // ES6 spread operator, Returns Node list and then convert to stringified array
+  //array maps to following keys = ['date', 'home_team', 'away_team', 'ht_corners', 'ft_corners', 'thirty_seven_to_ht', 'eighty_to_ft', 'r3', 'r5', 'r7', 'r9', 'goals', 'order_corners', 'league'];
+  // Loop from 1 which is used for selecting nth child
+
+      for (var i = 1; i < 20; i++){
+        let divs = [...document.querySelectorAll('#div_table_home > table > tbody > tr:nth-child(' + i +')' + '> td')];
+        let values = divs.map((div) => div.innerText.trim());
+
+        // last item in array
+        if(values.slice(-1)[0] === league) {
+          // data extracted looks like 5 - 1, so need to grab first letter of string
+          array.push(values[6].charAt(0));
+        }
+      }
+
+      return array;
+
+    }, league);
+
+  // Write to Redis
+  writeToRedis(corners, TEAM[args][i], 'eighty_to_ftw_home');
+
+  /////////
+  // 80FTCC
+  ////////
+  // Extract First Half Corners Conceded Between 80-FT (eighty_to_ftc_home) for Home Matches
+
+  corners = await page.evaluate((league) => {
+  let array = [];
+  // ES6 spread operator, Returns Node list and then convert to stringified array
+  //array maps to following keys = ['date', 'home_team', 'away_team', 'ht_corners', 'ft_corners', 'thirty_seven_to_ht', 'eighty_to_ft', 'r3', 'r5', 'r7', 'r9', 'goals', 'order_corners', 'league'];
+  // Loop from 1 which is used for selecting nth child
+
+      for (var i = 1; i < 20; i++){
+        let divs = [...document.querySelectorAll('#div_table_home > table > tbody > tr:nth-child(' + i +')' + '> td')];
+        let values = divs.map((div) => div.innerText.trim());
+
+        // last item in array
+        if(values.slice(-1)[0] === league) {
+          // data extracted looks like 5 - 1, so need to grab first letter of string
+          array.push(values[6].charAt(4));
+        }
+      }
+
+      return array;
+
+    }, league);
+
+  // Write to Redis
+  writeToRedis(corners, TEAM[args][i], 'eighty_to_ftc_home');
+
   await page.waitFor(2000);
 } // end loop
   client.quit();
