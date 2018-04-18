@@ -34,6 +34,7 @@ desc('Data Scraping for England Leagues');
 
   var cmds = [
     'node ./scripts/scrape_corners.js premier_league',
+    'node ./scripts/scrape_cornerstat.js premier_league',
     'node ./scripts/scrape_corners.js efl_championship',
     'node ./scripts/scrape_corners.js efl_one',
     'node ./scripts/scrape_corners.js efl_two'
@@ -84,6 +85,7 @@ desc('Data Scraping for italian Leagues');
 
   var cmds = [
     'node ./scripts/scrape_corners.js serie_a',
+    'node ./scripts/scrape_cornerstat.js serie_a',
     'node ./scripts/scrape_corners.js serie_b'
   ];
 
