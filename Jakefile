@@ -3,7 +3,8 @@ desc('Data Scraping for Irish Leagues');
   task('scrape-data-ireland', {async: true}, function () {
 
   var cmds = [
-    'node ./scripts/scrape_corners.js roi_premier'
+    'node ./scripts/scrape_corners.js roi_premier',
+    'node ./scripts/scrape_cornerstat.js roi_premier'
   ];
 
   jake.exec(cmds, {printStdout: true}, function () {

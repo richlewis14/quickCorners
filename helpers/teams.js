@@ -513,15 +513,15 @@ argentina_superliga: [
  { team_name: "Velez Sarsfield", league: "argentina_superliga", friendly_name: "velez_sarsfield", url: "https://corner-stats.com/velez-sarsfield/argentina/team/2348"}
 ],
 roi_premier: [
- { team_name: "Bohemians", league: "roi_premier", friendly_name: "bohemians", url: "https://corner-stats.com/bohemians-dublin/ireland-republic/team/699"},
- { team_name: "Bray", league: "roi_premier", friendly_name: "bray", url: "https://corner-stats.com/bray-wanderers/ireland-republic/team/2689"},
- { team_name: "Cork City", league: "roi_premier", friendly_name: "cork_city", url: "https://corner-stats.com/cork-city/ireland-republic/team/2691" },
- { team_name: "Derry City", league: "roi_premier", friendly_name: "derry_city", url: "https://corner-stats.com/derry-city/northern-ireland/team/2698" },
- { team_name: "Dundalk", league: "roi_premier", friendly_name: "dundalk", url: "https://corner-stats.com/dundalk/ireland-republic/team/2695" },
- { team_name: "Limerick", league: "roi_premier", friendly_name: "limerick", url: "https://corner-stats.com/limerick/ireland-republic/team/291" },
- { team_name: "Shamrock", league: "roi_premier", friendly_name: "shamrock", url: "https://corner-stats.com/shamrock-rovers/ireland-republic/team/1821"},
- { team_name: "Sligo Rovers", league: "roi_premier", friendly_name: "sligo_rovers", url: "https://corner-stats.com/sligo-rovers/ireland-republic/team/987" },
- { team_name: "St Patricks", league: "roi_premier", friendly_name: "st_patricks", url: "https://corner-stats.com/st-patricks/ireland-republic/team/459" },
- { team_name: "Waterford", league: "roi_premier", friendly_name: "waterford", url: "https://corner-stats.com/waterford-utd/ireland-republic/team/3029" }
+ { team_name: "Bohemians", search_name: 'Bohemians Dublin', league: "Republic of Ireland Premier Division", friendly_name: "bohemians", url: "https://corner-stats.com/bohemians-dublin/ireland-republic/team/699", id: '7274'},
+ { team_name: "Bray", search_name: 'Bray Wanderers', league: "Republic of Ireland Premier Division", friendly_name: "bray", url: "https://corner-stats.com/bray-wanderers/ireland-republic/team/2689", id: '241'},
+ { team_name: "Cork City", search_name: 'Cork City', league: "Republic of Ireland Premier Division", friendly_name: "cork_city", url: "https://corner-stats.com/cork-city/ireland-republic/team/2691", id: '243' },
+ { team_name: "Derry City", search_name: 'Derry City', league: "Republic of Ireland Premier Division", friendly_name: "derry_city", url: "https://corner-stats.com/derry-city/northern-ireland/team/2698", id: '248' },
+ { team_name: "Dundalk", search_name: 'Dundalk', league: "Republic of Ireland Premier Division", friendly_name: "dundalk", url: "https://corner-stats.com/dundalk/ireland-republic/team/2695", id: '245' },
+ { team_name: "Limerick", search_name: 'Limerick', league: "Republic of Ireland Premier Division", friendly_name: "limerick", url: "https://corner-stats.com/limerick/ireland-republic/team/291", id: '254' },
+ { team_name: "Shamrock", search_name: 'Shamrock Rovers', league: "Republic of Ireland Premier Division", friendly_name: "shamrock", url: "https://corner-stats.com/shamrock-rovers/ireland-republic/team/1821", id: '236'},
+ { team_name: "Sligo Rovers", search_name: 'Sligo Rovers', league: "Republic of Ireland Premier Division", friendly_name: "sligo_rovers", url: "https://corner-stats.com/sligo-rovers/ireland-republic/team/987", id: '246' },
+ { team_name: "St Patricks", search_name: 'St Patricks', league: "Republic of Ireland Premier Division", friendly_name: "st_patricks", url: "https://corner-stats.com/st-patricks/ireland-republic/team/459", id: '259' },
+ { team_name: "Waterford", search_name: 'Waterford FC', league: "Republic of Ireland Premier Division", friendly_name: "waterford", url: "https://corner-stats.com/waterford-utd/ireland-republic/team/3029", id: '41325' }
 ]
 }
