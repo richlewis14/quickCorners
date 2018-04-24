@@ -211,7 +211,8 @@ desc('Data Scraping for austrian Leagues');
 
   var cmds = [
     'node ./scripts/scrape_corners.js austria_bundesliga',
-    'node ./scripts/scrape_corners.js austria_liga'
+    'node ./scripts/scrape_corners.js austria_liga',
+    'node ./scripts/scrape_cornerstat.js austria_liga'
   ];
 
   jake.exec(cmds, {printStdout: true}, function () {
