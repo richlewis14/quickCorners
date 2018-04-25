@@ -78,19 +78,19 @@ var corners;
     });
 
     await page.type('input[name=ttt1]', TEAM[args][i]['search_name']);
-    await page.waitFor(2000);
+    await page.waitFor(2500);
     await page.click(CORNERSTAT_SELECTOR.search_team_ball);
     page.waitForNavigation({ waitUntil: 'networkidle0' })
-    await page.waitFor(3000);
+    await page.waitFor(3500);
 
     await page.select('#select_team1', TEAM[args][i]['id']);
     await page.click(CORNERSTAT_SELECTOR.search_team_ball);
     page.waitForNavigation({ waitUntil: 'networkidle0' })
-    await page.waitFor(3000);
+    await page.waitFor(3500);
 
     await page.click("label > input[value='HOME']");
     page.waitForNavigation({ waitUntil: 'networkidle0' })
-    await page.waitFor(2000);
+    await page.waitFor(2500);
 
     var league = TEAM[args][i]['league'];
 

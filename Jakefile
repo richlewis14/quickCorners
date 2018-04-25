@@ -133,6 +133,7 @@ desc('Data Scraping for asian Leagues');
 
   var cmds = [
     'node ./scripts/scrape_corners.js j_league',
+    'node ./scripts/scrape_cornerstat.js j_league',
     'node ./scripts/scrape_corners.js k_league',
     'node ./scripts/scrape_corners.js china_super_league'
   ];
